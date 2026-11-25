@@ -1,0 +1,41 @@
+{
+  "credits": {
+    "group": "LearnPath",
+    "participants": [
+      "Mary Balemba"
+    ],
+    "course": "ITAI2376"
+  },
+  "executed_utc": "2026-11-25T06:42:54Z",
+  "environment": "Local Python 3.12; Colab-specific authentication and live Gemini not tested",
+  "tests": {
+    "run": 37,
+    "failures": 0,
+    "errors": 0
+  },
+  "exercise_benchmark": {
+    "cases": 240,
+    "passed": 240,
+    "median_checker_ms": 0.013,
+    "p95_checker_ms": 0.0198
+  },
+  "bandit_simulation": {
+    "kind": "Synthetic fixed-probability bandit simulation; not human learners",
+    "seeds": 30,
+    "training_interactions_per_seed": 600,
+    "held_out_interactions_per_seed": 360,
+    "adaptive_success": 0.8366666666666667,
+    "uniform_success": 0.5170370370370371,
+    "paired_difference": 0.31962962962962965,
+    "difference_95pct_normal_interval": [
+      0.3048123929821165,
+      0.3344468662771428
+    ],
+    "assumed_success_probabilities": [
+      0.85,
+      0.45,
+      0.25
+    ],
+    "caveat": "Evaluation freezes policy and exploits greedily; live epsilon exploration differs. Fixed contexts omit changing skills and fatigue."
+  }
+}

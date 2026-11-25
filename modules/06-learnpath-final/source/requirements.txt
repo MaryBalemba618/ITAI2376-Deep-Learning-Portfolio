@@ -1,0 +1,4 @@
+# LearnPath | Mary Balemba | Group LearnPath | ITAI2376
+# Python classroom interface. Core logic and tests use the Python standard library.
+ipywidgets==8.1.8
+# The browser version needs no npm packages. Use Node.js to run its built-in tests.

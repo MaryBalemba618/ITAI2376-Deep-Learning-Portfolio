@@ -1,0 +1,34 @@
+{
+  "arithmetic": {
+    "source": "Original LearnPath lesson; syntax reference: https://docs.python.org/3/tutorial/introduction.html#numbers",
+    "styles": {
+      "worked_example": "If a=3 and b=4, a+b is 7 and a*b is 12. Python handles parentheses first: (a+b)*2 is 14. Now use the different values in your task.",
+      "analogy": "Think of a and b as labeled boxes holding numbers. + combines the amounts and * repeats an amount. Parentheses tell Python which box calculation to finish first.",
+      "guided_steps": "1. Read the values assigned to a and b. 2. Translate add into + and multiply into *. 3. Put a calculation in parentheses when it must happen first. 4. Check with the given values."
+    }
+  },
+  "conditions": {
+    "source": "Original LearnPath lesson; syntax reference: https://docs.python.org/3/tutorial/controlflow.html#if-statements",
+    "styles": {
+      "worked_example": "If score=80 and pass_mark=60, score >= pass_mark returns True. The expression 1 if score >= pass_mark else 0 returns 1. Use your task's values to decide the result.",
+      "analogy": "A condition is a gate. It opens when a test is true. >= means greater than or equal to. A conditional expression picks one value for an open gate and another for a closed gate.",
+      "guided_steps": "1. Compare score with pass_mark using >=. 2. Decide whether the comparison is True or False. 3. If the task wants two different numbers, use: first_value if condition else second_value."
+    }
+  },
+  "loops": {
+    "source": "Original LearnPath lesson; syntax reference: https://docs.python.org/3/tutorial/controlflow.html#the-range-function",
+    "styles": {
+      "worked_example": "range(4) produces 0,1,2,3. sum(range(4)) is 6. range(1,5) includes 1 through 4. range(0,5,2) produces 0,2,4. We use these bounded expressions to practice iteration before full for statements.",
+      "analogy": "range is like numbered stops on a route. It visits the start and stops before the end number. A step of 2 skips every other stop. sum adds the numbers visited.",
+      "guided_steps": "1. Identify the starting number. 2. Set a stop one beyond the last number you want. 3. Use a third range argument if you need a step. 4. Wrap the range in sum to add the visited numbers."
+    }
+  },
+  "lists": {
+    "source": "Original LearnPath lesson; syntax reference: https://docs.python.org/3/tutorial/introduction.html#lists",
+    "styles": {
+      "worked_example": "For items=[2,4,6], len(items) is 3 and sum(items) is 12. sum(items)//len(items) is 4. // gives integer division, rounding down. Your task uses a different list.",
+      "analogy": "A list is a tray holding several numbers in order. len counts the numbers on the tray. sum adds their values. Dividing the total by the count gives an average.",
+      "guided_steps": "1. Read the items list. 2. Use len(items) when asked for a count. 3. Use sum(items) when asked for a total. 4. For an integer average, divide total by count using //."
+    }
+  }
+}

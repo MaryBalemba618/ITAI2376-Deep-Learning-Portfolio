@@ -1,0 +1,44 @@
+{
+  "checked_utc": "2026-11-25T06:51:20.406784+00:00",
+  "project": "LearnPath",
+  "group": "LearnPath",
+  "participants": [
+    "Mary Balemba"
+  ],
+  "course": "ITAI2376",
+  "web_engine_tests": {
+    "passed": 16,
+    "failed": 0,
+    "generated_cases": 300
+  },
+  "python_tests": {
+    "passed": 37,
+    "failed": 0,
+    "generated_cases": 240
+  },
+  "live_browser_checks": {
+    "date": "2026-11-25",
+    "url": "https://learnpath-python-practice.manics28b.chatgpt.site/#practice",
+    "passed": [
+      "supported learning goal",
+      "wrong-answer feedback",
+      "hint",
+      "correct retry",
+      "unsupported open(1) blocked without learning update",
+      "progress dashboard"
+    ]
+  },
+  "custom_domain": {
+    "hostname": "learnpathcode.online",
+    "status": "pending DNS verification",
+    "observed_page": "GoDaddy page titled Trinity Parkway Offices",
+    "verified_working_learning_domain": false
+  },
+  "not_claimed": [
+    "physical-device tests",
+    "new real-student study",
+    "live Gemini test",
+    "working custom-domain recording"
+  ],
+  "published_web_source_commit": "5dc365ecff44517b13368269cbd43e265be5329c"
+}

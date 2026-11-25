@@ -1,0 +1,9 @@
+{
+  "credits": {"group": "LearnPath", "participants": ["Mary Balemba"], "course": "ITAI2376"},
+  "database_path": "/content/learnpath_state/progress.sqlite3",
+  "epsilon": 0.15,
+  "offline_default": true,
+  "gemini_api_key": "SET_IN_COLAB_SECRETS_NOT_HERE",
+  "gemini_model": "CHOOSE_AN_AVAILABLE_MODEL_IN_YOUR_ACCOUNT",
+  "persist_to_drive": false
+}

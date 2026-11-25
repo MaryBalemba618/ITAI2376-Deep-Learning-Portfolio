@@ -1,0 +1,182 @@
+[
+  {
+    "step": "Personalized lesson",
+    "task": {
+      "topic": "loops",
+      "level": 1,
+      "prompt": "Find the total of integers from 0 up to, but excluding, n.",
+      "variables": {
+        "n": 4
+      },
+      "hint": "range stops before its second argument. Add 1 to include n. A third range argument sets the step.",
+      "id": "2a74d21fed694f39a88fe51fda32e560",
+      "context": "loops:L1",
+      "style": "guided_steps",
+      "decision": "Trying an explanation style with no feedback in this topic and level.",
+      "lesson": "1. Identify the starting number. 2. Set a stop one beyond the last number you want. 3. Use a third range argument if you need a step. 4. Wrap the range in sum to add the visited numbers.",
+      "source": "Original LearnPath lesson; syntax reference: https://docs.python.org/3/tutorial/controlflow.html#the-range-function",
+      "fallback": false,
+      "hints": 0,
+      "attempts": 0,
+      "solved": false,
+      "plan": [
+        "Interpret request",
+        "Load learner memory",
+        "Choose level and explanation",
+        "Retrieve lesson",
+        "Generate checked exercise",
+        "Assess answer and update memory"
+      ]
+    }
+  },
+  {
+    "step": "Wrong answer",
+    "answer": "-1",
+    "result": {
+      "ok": true,
+      "correct": false,
+      "feedback": "That result does not match yet. Try a hint and work through the given values.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": -0.5,
+      "mastery": 0.0,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.058
+    }
+  },
+  {
+    "step": "Constructive hint",
+    "result": "range stops before its second argument. Add 1 to include n. A third range argument sets the step."
+  },
+  {
+    "step": "Retry after hint",
+    "answer": "sum(range(n))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": false,
+      "first_attempt": false,
+      "reward": null,
+      "mastery": 0.0,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.063
+    }
+  },
+  {
+    "step": "Adaptive practice",
+    "topic": "loops",
+    "level": 1,
+    "style": "analogy",
+    "answer": "sum(range(n))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": 1.0,
+      "mastery": 0.3,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.039
+    }
+  },
+  {
+    "step": "Adaptive practice",
+    "topic": "loops",
+    "level": 1,
+    "style": "worked_example",
+    "answer": "sum(range(n))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": 1.0,
+      "mastery": 0.51,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.035
+    }
+  },
+  {
+    "step": "Adaptive practice",
+    "topic": "loops",
+    "level": 2,
+    "style": "guided_steps",
+    "answer": "sum(range(1, n + 1))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": 1.0,
+      "mastery": 0.657,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.039
+    }
+  },
+  {
+    "step": "Adaptive practice",
+    "topic": "loops",
+    "level": 2,
+    "style": "worked_example",
+    "answer": "sum(range(1, n + 1))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": 1.0,
+      "mastery": 0.7599,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.044
+    }
+  },
+  {
+    "step": "Adaptive practice",
+    "topic": "loops",
+    "level": 3,
+    "style": "worked_example",
+    "answer": "sum(range(0, n + 1, 2))",
+    "result": {
+      "ok": true,
+      "correct": true,
+      "feedback": "Correct. Good work applying the idea.",
+      "updated": true,
+      "first_attempt": true,
+      "reward": 1.0,
+      "mastery": 0.8319,
+      "recommended_topic": "arithmetic",
+      "latency_ms": 0.066
+    }
+  },
+  {
+    "step": "Blocked expression",
+    "answer": "open(1)",
+    "result": {
+      "ok": false,
+      "correct": false,
+      "feedback": "Unsupported syntax. Imports, attributes, files, comprehensions, and general Python execution are blocked.",
+      "updated": false
+    }
+  },
+  {
+    "step": "Progress dashboard",
+    "result": {
+      "mastery": {
+        "arithmetic": 0.0,
+        "conditions": 0.0,
+        "loops": 0.8319,
+        "lists": 0.0
+      },
+      "exercises_started": 7,
+      "first_attempts": 6,
+      "first_attempt_accuracy": 0.8333333333333334,
+      "recommended_topic": "arithmetic",
+      "note": "Practice estimates only. No claim of measured learning gain."
+    }
+  }
+]

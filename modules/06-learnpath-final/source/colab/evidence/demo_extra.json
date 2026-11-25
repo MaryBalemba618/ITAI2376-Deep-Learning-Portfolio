@@ -1,0 +1,46 @@
+{
+  "group": "LearnPath",
+  "participants": [
+    "Mary Balemba"
+  ],
+  "document_fallback": {
+    "topic": "loops",
+    "level": 1,
+    "prompt": "Find the total of integers from 0 up to, but excluding, n.",
+    "variables": {
+      "n": 4
+    },
+    "hint": "range stops before its second argument. Add 1 to include n. A third range argument sets the step.",
+    "id": "94d244b039824f13b8d262030874672b",
+    "context": "loops:L1",
+    "style": "guided_steps",
+    "decision": "Trying an explanation style with no feedback in this topic and level.",
+    "lesson": "Practice loops using a small example. Work one step at a time and check the result.",
+    "source": "Built-in practice fallback",
+    "fallback": true,
+    "hints": 0,
+    "attempts": 0,
+    "solved": false,
+    "plan": [
+      "Interpret request",
+      "Load learner memory",
+      "Choose level and explanation",
+      "Retrieve lesson",
+      "Generate checked exercise",
+      "Assess answer and update memory"
+    ]
+  },
+  "checkpoint_restore": {
+    "mastery": {
+      "arithmetic": 0.0,
+      "conditions": 0.0,
+      "loops": 0.0,
+      "lists": 0.3
+    },
+    "exercises_started": 1,
+    "first_attempts": 1,
+    "first_attempt_accuracy": 1.0,
+    "recommended_topic": "arithmetic",
+    "note": "Practice estimates only. No claim of measured learning gain."
+  }
+}

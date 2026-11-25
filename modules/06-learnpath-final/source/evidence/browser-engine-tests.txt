@@ -1,0 +1,24 @@
+✔ supported expressions follow Python integer rules (2.967824ms)
+✔ unsafe syntax and resource-heavy expressions are rejected (0.786096ms)
+✔ 300 generated curriculum cases match independent expected answers (13.3906ms)
+✔ first success updates mastery and cannot earn duplicate rewards (2.284ms)
+✔ correct retries preserve the original first-attempt evidence (0.252054ms)
+✔ invalid syntax does not update practice or policy (0.941157ms)
+✔ hints and example solutions do not overstate progress (0.443368ms)
+✔ difficulty rises after fresh successful exercises (1.054805ms)
+✔ poor first-attempt performance can lower difficulty (0.260287ms)
+✔ each topic resumes its own unfinished exercise (3.567263ms)
+✔ Boolean answers are distinct from numeric answers (0.27647ms)
+✔ the policy explores new styles and can select a higher-reward style (0.321698ms)
+✔ saved progress roundtrips with the pending exercise intact (1.592233ms)
+✔ invalid imported state is rejected and unknown policy keys are ignored (0.63326ms)
+✔ language goals recognize the supported topics and reject unrelated requests (0.437609ms)
+✔ the engine does not call eval or construct an executable Function (11.989422ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 178.432511

@@ -1,0 +1,42 @@
+test_arithmetic (test_tutor.ExpressionTests.test_arithmetic) ... ok
+test_conditional (test_tutor.ExpressionTests.test_conditional) ... ok
+test_limits (test_tutor.ExpressionTests.test_limits) ... ok
+test_list (test_tutor.ExpressionTests.test_list) ... ok
+test_range (test_tutor.ExpressionTests.test_range) ... ok
+test_unsafe_syntax (test_tutor.ExpressionTests.test_unsafe_syntax) ... ok
+test_api_failure (test_tutor.LanguageTests.test_api_failure) ... ok
+test_api_response_mocked (test_tutor.LanguageTests.test_api_response_mocked) ... ok
+test_missing_key (test_tutor.LanguageTests.test_missing_key) ... ok
+test_offline_no_call (test_tutor.LanguageTests.test_offline_no_call) ... ok
+test_atomic_rollback (test_tutor.TutorTests.test_atomic_rollback) ... ok
+test_bad_document_fallback (test_tutor.TutorTests.test_bad_document_fallback) ... ok
+test_bad_id (test_tutor.TutorTests.test_bad_id) ... ok
+test_boolean_not_integer (test_tutor.TutorTests.test_boolean_not_integer) ... ok
+test_cannot_skip_unfinished (test_tutor.TutorTests.test_cannot_skip_unfinished) ... ok
+test_checkpoint_resume (test_tutor.TutorTests.test_checkpoint_resume) ... ok
+test_checkpoint_same_working_path (test_tutor.TutorTests.test_checkpoint_same_working_path) ... ok
+test_database_failure (test_tutor.TutorTests.test_database_failure) ... ok
+test_delete_cascades (test_tutor.TutorTests.test_delete_cascades) ... ok
+test_document_fallback (test_tutor.TutorTests.test_document_fallback) ... ok
+test_equivalent_solution (test_tutor.TutorTests.test_equivalent_solution) ... ok
+test_hint_reward (test_tutor.TutorTests.test_hint_reward) ... ok
+test_injection_input (test_tutor.TutorTests.test_injection_input) ... ok
+test_invalid_no_update (test_tutor.TutorTests.test_invalid_no_update) ... ok
+test_levels_adapt (test_tutor.TutorTests.test_levels_adapt) ... ok
+test_natural_language_input (test_tutor.TutorTests.test_natural_language_input) ... ok
+test_out_of_scope (test_tutor.TutorTests.test_out_of_scope) ... ok
+test_pending_persists (test_tutor.TutorTests.test_pending_persists) ... ok
+test_policy_update (test_tutor.TutorTests.test_policy_update) ... ok
+test_profile_isolation (test_tutor.TutorTests.test_profile_isolation) ... ok
+test_public_task_has_no_solution (test_tutor.TutorTests.test_public_task_has_no_solution) ... ok
+test_recommendation (test_tutor.TutorTests.test_recommendation) ... ok
+test_repeat_cannot_farm_reward (test_tutor.TutorTests.test_repeat_cannot_farm_reward) ... ok
+test_resume_same_task (test_tutor.TutorTests.test_resume_same_task) ... ok
+test_retry_does_not_change_first_attempt_mastery (test_tutor.TutorTests.test_retry_does_not_change_first_attempt_mastery) ... ok
+test_unknown_id (test_tutor.TutorTests.test_unknown_id) ... ok
+test_wrong_answer (test_tutor.TutorTests.test_wrong_answer) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.020s
+
+OK

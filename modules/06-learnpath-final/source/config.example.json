@@ -1,0 +1,14 @@
+{
+  "project": "LearnPath",
+  "group": "LearnPath",
+  "participants": ["Mary Balemba"],
+  "course": "ITAI2376",
+  "project_option": 4,
+  "development_environment": "Google Colab",
+  "requested_domain": "https://learnpathcode.online",
+  "published_platform_url": "https://learnpath-python-practice.manics28b.chatgpt.site",
+  "domain_dns_verified": false,
+  "browser_storage": "learnpath.practice.v1",
+  "colab_model_rewriting_enabled": false,
+  "note": "Set optional secrets through Colab Secrets. No API key belongs in this file."
+}

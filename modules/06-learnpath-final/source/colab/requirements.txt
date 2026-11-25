@@ -1,0 +1,4 @@
+# LearnPath | Mary Balemba | Group LearnPath | ITAI2376
+# Core, grading, persistence, evaluation and tests use Python 3.10+ standard library.
+# This is the only runtime UI dependency; notebook installs it only if missing.
+ipywidgets==8.1.8
